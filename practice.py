@@ -4,7 +4,7 @@ a = 0
 b = 0
 c = 0 
 
-select = int(input("Select Box \nA(1) \nB(2) \nC(3) \nEnter number here: "))
+select = int(input("Select Box \nA(1) \nB(2) \nC(3) \nEnter numb er here: "))
 openrandoor = random.randint(1, 2)
 ran = random.randint(1, 3)
 
