@@ -4,7 +4,7 @@ a = 0
 b = 0
 c = 0 
 
-select = int(input("Select \nA(1) \nB(2) \nC(3) \nEnter number here: "))
+select = int(input("Select Box \nA(1) \nB(2) \nC(3) \nEnter number here: "))
 openrandoor = random.randint(1, 2)
 ran = random.randint(1, 3)
 
@@ -82,7 +82,7 @@ else:
 
 
 if b == 2:
-    print("Randomly B is oppend but no gem in here")
+    print("Randomly \"B\" Box is opened but no gem in here")
     select2 = int(input("Plz select A or C : "))
     if select2 == 1:
         if a == 1:
@@ -133,8 +133,8 @@ elif c == 2:
         elif b == 1:
             print("you select b and gem in b")
         else:
-            print("err")
+            print(" ")
     else:
-        print("err")
+        print(" ")
 else:
-    print("err")
+    print(" ")
